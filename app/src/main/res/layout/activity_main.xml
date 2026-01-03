@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF5FF"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="語音控制運動模擬器"
+        android:textColor="#333333"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#E0E0E0"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnFlat"
+            android:layout_width="220dp"
+            android:layout_height="65dp"
+            android:text="平面情況"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6750A4"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnSlope"
+            android:layout_width="220dp"
+            android:layout_height="65dp"
+            android:text="斜面情況"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6750A4"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnMember"
+            android:layout_width="220dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#6750A4"
+            android:text="會員專屬"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
